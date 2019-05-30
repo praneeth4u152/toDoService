@@ -1,4 +1,4 @@
-FROM openjdk:8
+FROM mavenqa.got.volvo.net:18443/openjdk:8
 
 ADD /target/toDoService-0.0.1-SNAPSHOT.jar toDoService-0.0.1-SNAPSHOT.jar
 
